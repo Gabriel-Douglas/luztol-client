@@ -1,0 +1,76 @@
+.linhaCurso {
+    margin-bottom: 30px;
+}
+
+.linhaCurso h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.linhaCurso--listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.linhaCurso--list {
+ transition: all ease 0.5s;
+ /* border: solid;  */
+}
+
+.linhaCurso--item {
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+    cursor: pointer;
+    /* border: solid; */
+    /* border-color: red; */
+}
+.linhaCurso--item img {
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+}
+/* .linhaCurso--item p {
+    border: solid; */
+    /* border-color: blue;
+} */
+
+.linhaCurso--item img:hover {
+    transform: scale(1);
+}
+
+.linhaCurso--left,
+.linhaCurso--right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.linhaCurso--left {
+    left: 0;
+}
+
+.linhaCurso--right {
+    right: 0;
+}
+
+.linhaCurso:hover .linhaCurso--left,
+.linhaCurso:hover .linhaCurso--right{
+    opacity: 1;
+}
+
+@media (max-width: 760px){
+    .linhaCurso--left,
+    .linhaCurso--right{
+        opacity: 1;
+    }
+}

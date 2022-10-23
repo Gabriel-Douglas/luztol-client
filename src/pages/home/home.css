@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+  body, html{
+    margin:0;
+}
+
+.cursos {
+    background: url('https://especialista-luztol.herokuapp.com/images/Imagem de Fundo.png') no-repeat;
+    background-color: black;
+    background-repeat: auto;
+    background-size: 100%;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.listaCursos {
+    padding-top: 300px;
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+}

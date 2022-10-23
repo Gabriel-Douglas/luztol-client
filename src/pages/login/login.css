@@ -1,0 +1,12 @@
+.login--principal {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://especialista-luztol.herokuapp.com/images/Imagem de Fundo.png');
+    background-color: black;
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
