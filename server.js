@@ -9,9 +9,13 @@ app.use('/', express.static(
 ))
 
 app
-    .listen(process.env.PORT || 3000, (err) => {
-        if (err) {return console.log(err)}
+.listen(process.env.PORT || 3000, (err) => {
+    if (err) {return console.log(err)}
 
-        console.log('SERVER REACT OK');
+    console.log('SERVER REACT OK');
 
-    })
+})
+
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  });
