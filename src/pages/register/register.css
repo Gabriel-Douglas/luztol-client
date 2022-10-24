@@ -1,0 +1,12 @@
+.cadastro--page{
+    font-family: 'Roboto', sans-serif;
+    background: url('http://localhost:3000/images/close-up-hand-painting-wall-with-roller.jpg');
+    
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

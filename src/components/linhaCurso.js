@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom'
 import './linhaCurso.css';
 
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
@@ -47,7 +48,7 @@ const LinhaCurso = ({title,items}) => {
                 }}>
                 {items.map((item,key) => (
                     <div className='linhaCurso--item'>
-                        <img src={`/images${item.DIR_CAPA}`} alt={item.NOME}/>    
+                        <Link to="/saladeaula"><img src={`/images${item.DIR_CAPA}`} alt={item.NOME}/></Link>
                         <p>{item.NOME}</p>
                     </div>
                 ))}
