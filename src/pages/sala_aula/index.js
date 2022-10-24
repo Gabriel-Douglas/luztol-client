@@ -53,7 +53,7 @@ const Sala = () => {
                         <img src={`/images/Curso Básico de Pintura.png`} alt="Curso Básico de Pintura.png" />
                     </Grid>
                     <Grid item xs={11}>
-                        <h2>Curso Básido de Pintura</h2>
+                        <h2>Curso Básico de Pintura</h2>
                         <Grid item>
                             <h3>
                                 Qualificação Profissional, onde o aluno aprenderá os conhecimentos básicos da profissão de pintor; função e composição das tintas; os tipos mais comuns de tintas; ferramentas e equipamentos necessários; áreas externas – preparação de superfícies; o que é a tinta para exteriores; aplicação da tinta para exteriores; detectando defeitos na pintura externa; o que são tintas para interiores; propriedades e demais características das tintas para interiores; tintas para interiores e os tipos de acabamento; os fundos preparadores e seladores;solventes e diluentes usados nas tintas; vernizes, onde e como aplicar; ferramentas e técnicas de pintura; preparando e pintando madeira; cuidados com a segurança ao pintar; cuidados especiais com produtos químicos; dicas para cálculo do orçamento; dicionário do pintor.
